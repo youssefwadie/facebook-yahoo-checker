@@ -18,7 +18,7 @@ $ sudo pacman -S python python-pip
 You can use any *Chromium-based web broswer* by changing `BINARY_PATH`  and `DRIVER_PATH` variables in the script accprding to your installation path for the *browser* and the [*webdriver*](https://chromedriver.chromium.org/), by default the script uses *chromium* but you can change it to any chromium-based browser.
 # Installation:
 ```
-git clone https://github.com/youssefwadie/fb_checker.git
+git clone https://github.com/youssefwadie/facebook-yahoo-checker.git
 cd fb_checker
 pip install -r requirements.txt
 ```
