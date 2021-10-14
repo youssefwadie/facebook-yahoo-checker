@@ -19,7 +19,7 @@ You can use any *Chromium-based web broswer* by changing `BINARY_PATH`  and `DRI
 # Installation:
 ```
 git clone https://github.com/youssefwadie/facebook-yahoo-checker.git
-cd fb_checker
+cd facebook-yahoo-checker
 pip install -r requirements.txt
 ```
 
