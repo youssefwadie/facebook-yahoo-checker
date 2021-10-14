@@ -1,4 +1,4 @@
-# Valid Facebook Account
+# Facebook Yahoo Checker 
 A very simple and small Python script for generating and filtering dead yahoo accounts associated with a valid facebook accounts.
 # Requirements
 To get started, you need Python 3 and pip working on your system.
