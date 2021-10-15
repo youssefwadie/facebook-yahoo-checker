@@ -5,6 +5,7 @@ To get started, you need Python 3 and pip working on your system.
 
 
 On *MS Windows* install [Python](https://www.python.org/downloads/windows) **and make sure that Python is added to the PATH environment variable.**
+
 On *Ubuntu*, *Mint*, or *Debian*; use `apt-get`
 ```bash
 $ sudo apt-get install python3 python3-pip
@@ -24,17 +25,11 @@ pip install -r requirements.txt
 ```
 
 # Usage
-```
-python main.py -t <NUMBER OF ACCOUNTS TO GENERATE AND TEST> -i <FILE>
-```
+`python main.py -t <NUMBER OF ACCOUNTS TO GENERATE AND TEST> -i <FILE>`
 # Notes
 * You don't have to use both -t and -i options at the same time, one is enough.
 * If you are using UNIX-like operating system you can insert the following line at the beginning of main.py file
-	```
-	#!/bin/env python
-	```
+	`#!/bin/env python`
 	Make the file excutable
-	```
-	chmod +x main.py
-	```
+	`chmod +x main.py`
 	#### Now you can run the script with *./main.py*
