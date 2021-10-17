@@ -3,7 +3,7 @@ from os import path
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 import random
-from pyvirtualdisplay import Display
+# from pyvirtualdisplay import Display
 from bs4 import BeautifulSoup
 import subprocess
 from argparse import ArgumentParser
@@ -26,8 +26,8 @@ class COLORS:
 class FacebookScraper:
     def __init__(self) -> None:
         # hide the browser screen
-        display = Display(visible=False, size=(800, 600))
-        display.start()
+        #display = Display(visible=False, size=(800, 600))
+        #display.start()
 
         driver_options = webdriver.ChromeOptions()
         driver_options.binary_location = BINARY_PATH
@@ -48,8 +48,8 @@ class FacebookScraper:
 
 class YahooScraper:
     def __init__(self):
-        display = Display(visible=False, size=(1080, 720))
-        display.start()
+        #display = Display(visible=False, size=(1080, 720))
+        #display.start()
         driver_options = webdriver.ChromeOptions()
         driver_options.binary_location = BINARY_PATH
         self.driver = webdriver.Chrome(DRIVER_PATH, options=driver_options)
